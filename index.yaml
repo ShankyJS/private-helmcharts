@@ -3,7 +3,7 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 1.7.20
-    created: 2020-01-27T14:02:26.958400619-06:00
+    created: 2020-01-27T15:38:47.5743166-06:00
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 08a962e7a3acd002badadb7b65d5df8e1105fb15d76f7191fa133c72ae5f6e36
@@ -34,7 +34,32 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: 2020-01-27T14:02:26.961454569-06:00
+    created: 2020-01-27T15:38:47.580398622-06:00
+    description: This is the one that does not use PVC.
+    digest: 827a525ecb2aae60fa1b984ce9013a1b88a5142a39151c8724c93ff8a47e64cb
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.2.0.tgz
+    version: 8.2.0
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: 2020-01-27T15:38:47.577438485-06:00
     description: This is the one that I put on Github (wp)
     digest: b7d547c0f8cdfbf5202632c685498508199fcfd8461f32366500cefeb96694d6
     engine: gotpl
@@ -57,4 +82,4 @@ entries:
     urls:
     - wordpress-8.1.0.tgz
     version: 8.1.0
-generated: 2020-01-27T14:02:26.956128932-06:00
+generated: 2020-01-27T15:38:47.572044296-06:00
