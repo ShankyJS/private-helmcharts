@@ -1,9 +1,40 @@
 apiVersion: v1
 entries:
+  traefik:
+  - apiVersion: v1
+    appVersion: 1.7.20
+    created: 2020-01-27T14:02:26.958400619-06:00
+    description: A Traefik based Kubernetes ingress controller with Let's Encrypt
+      support
+    digest: 08a962e7a3acd002badadb7b65d5df8e1105fb15d76f7191fa133c72ae5f6e36
+    engine: gotpl
+    home: https://traefik.io/
+    icon: https://docs.traefik.io/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - acme
+    - letsencrypt
+    maintainers:
+    - email: kent.rancourt@microsoft.com
+      name: krancour
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ludovic@containo.us
+      name: ldez
+    name: traefik
+    sources:
+    - https://github.com/containous/traefik
+    - https://github.com/helm/charts/tree/master/stable/traefik
+    urls:
+    - traefik-1.85.0.tgz
+    version: 1.85.0
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: 2020-01-27T13:39:31.093555268-06:00
+    created: 2020-01-27T14:02:26.961454569-06:00
     description: This is the one that I put on Github (wp)
     digest: b7d547c0f8cdfbf5202632c685498508199fcfd8461f32366500cefeb96694d6
     engine: gotpl
@@ -26,4 +57,4 @@ entries:
     urls:
     - wordpress-8.1.0.tgz
     version: 8.1.0
-generated: 2020-01-27T13:39:31.090401381-06:00
+generated: 2020-01-27T14:02:26.956128932-06:00
