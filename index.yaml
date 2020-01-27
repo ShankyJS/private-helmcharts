@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: 2020-01-27T13:39:31.093555268-06:00
+    description: This is the one that I put on Github (wp)
+    digest: b7d547c0f8cdfbf5202632c685498508199fcfd8461f32366500cefeb96694d6
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.1.0.tgz
+    version: 8.1.0
+generated: 2020-01-27T13:39:31.090401381-06:00
